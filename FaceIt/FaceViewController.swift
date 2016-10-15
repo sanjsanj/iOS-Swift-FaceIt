@@ -17,6 +17,9 @@ class FaceViewController: UIViewController {
     
     @IBOutlet weak var faceView: FaceView! {
         didSet {
+            faceView.addGestureRecognizer(UIPinchGestureRecognizer(
+                target: faceView, action: #selector(FaceView.changeScale(recognizer:))
+            ))
             updateUI()
         }
     }
