@@ -13,6 +13,7 @@
 		3A39D5201D98436500888753 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A39D51F1D98436500888753 /* Assets.xcassets */; };
 		3A39D5231D98436500888753 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A39D5211D98436500888753 /* LaunchScreen.storyboard */; };
 		3A39D52C1D9844A200888753 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A39D52B1D9844A200888753 /* FaceView.swift */; };
+		3AAD738E1DB24850003878B1 /* FacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAD738D1DB24850003878B1 /* FacialExpression.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3A39D5221D98436500888753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A39D5241D98436500888753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A39D52B1D9844A200888753 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		3AAD738D1DB24850003878B1 /* FacialExpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacialExpression.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				3A39D52A1D9843B000888753 /* Supporting Files */,
 				3A39D51A1D98436500888753 /* FaceViewController.swift */,
+				3AAD738D1DB24850003878B1 /* FacialExpression.swift */,
 				3A39D51C1D98436500888753 /* Main.storyboard */,
 				3A39D52B1D9844A200888753 /* FaceView.swift */,
 			);
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A39D51B1D98436500888753 /* FaceViewController.swift in Sources */,
+				3AAD738E1DB24850003878B1 /* FacialExpression.swift in Sources */,
 				3A39D5191D98436500888753 /* AppDelegate.swift in Sources */,
 				3A39D52C1D9844A200888753 /* FaceView.swift in Sources */,
 			);

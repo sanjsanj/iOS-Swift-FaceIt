@@ -12,22 +12,22 @@ import UIKit
 
 class FaceView: UIView {
     @IBInspectable
-    var scale: CGFloat = 0.90
+    var scale: CGFloat = 0.90 { didSet { setNeedsDisplay() } }
     
     @IBInspectable
-    var mouthCurvature: Double = 1.0 // 1 for full smile, -1 for full sad
+    var mouthCurvature: Double = 1.0 { didSet { setNeedsDisplay() } } // 1 for full smile, -1 for full sad
     
     @IBInspectable
-    var eyesOpen: Bool = true
+    var eyesOpen: Bool = true { didSet { setNeedsDisplay() } }
     
     @IBInspectable
-    var eyeBrowTilt: Double = 0.0 // 1 fully relaxed, -1 full furrow
+    var eyeBrowTilt: Double = 0.0 { didSet { setNeedsDisplay() } } // 1 fully relaxed, -1 full furrow
     
     @IBInspectable
-    var color: UIColor = UIColor.blue
+    var color: UIColor = UIColor.blue { didSet { setNeedsDisplay() } }
     
     @IBInspectable
-    var lineWidth: CGFloat = 5.0
+    var lineWidth: CGFloat = 5.0 { didSet { setNeedsDisplay() } }
     
     fileprivate var skullRadius: CGFloat {
         return min(bounds.size.width, bounds.size.height) / 2 * scale
