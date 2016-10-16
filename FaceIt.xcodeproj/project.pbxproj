@@ -14,6 +14,7 @@
 		3A39D5231D98436500888753 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A39D5211D98436500888753 /* LaunchScreen.storyboard */; };
 		3A39D52C1D9844A200888753 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A39D52B1D9844A200888753 /* FaceView.swift */; };
 		3AAD738E1DB24850003878B1 /* FacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAD738D1DB24850003878B1 /* FacialExpression.swift */; };
+		3AAD73901DB2A478003878B1 /* EmotionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAD738F1DB2A478003878B1 /* EmotionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		3A39D5241D98436500888753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A39D52B1D9844A200888753 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 		3AAD738D1DB24850003878B1 /* FacialExpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacialExpression.swift; sourceTree = "<group>"; };
+		3AAD738F1DB2A478003878B1 /* EmotionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				3A39D51A1D98436500888753 /* FaceViewController.swift */,
 				3AAD738D1DB24850003878B1 /* FacialExpression.swift */,
 				3A39D51C1D98436500888753 /* Main.storyboard */,
+				3AAD738F1DB2A478003878B1 /* EmotionsViewController.swift */,
 				3A39D52B1D9844A200888753 /* FaceView.swift */,
 			);
 			path = FaceIt;
@@ -105,7 +108,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Sanjay Purswani";
 				TargetAttributes = {
 					3A39D5141D98436500888753 = {
@@ -152,6 +155,7 @@
 			files = (
 				3A39D51B1D98436500888753 /* FaceViewController.swift in Sources */,
 				3AAD738E1DB24850003878B1 /* FacialExpression.swift in Sources */,
+				3AAD73901DB2A478003878B1 /* EmotionsViewController.swift in Sources */,
 				3A39D5191D98436500888753 /* AppDelegate.swift in Sources */,
 				3A39D52C1D9844A200888753 /* FaceView.swift in Sources */,
 			);
@@ -193,8 +197,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -239,8 +245,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -259,6 +267,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
